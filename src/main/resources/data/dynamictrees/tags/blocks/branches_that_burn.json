@@ -1,7 +1,7 @@
 {
   "values": [
-    { "id": "dynamictrees:chilly_blossom_branch", "required": false },
-    { "id": "dynamictrees:deciduous_neo_palm_branch", "required": false },
-    { "id": "dynamictrees:neo_palm_branch", "required": false }
+    { "id": "dt_sonicraft:chilly_blossom_branch", "required": false },
+    { "id": "dt_sonicraft:deciduous_neo_palm_branch", "required": false },
+    { "id": "dt_sonicraft:neo_palm_branch", "required": false }
   ]
 }
