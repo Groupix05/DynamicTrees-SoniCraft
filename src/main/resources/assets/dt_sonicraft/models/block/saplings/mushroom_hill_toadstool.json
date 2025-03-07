@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "dynamictrees:block/smartmodel/mushroom_round",
+	"render_type": "minecraft:cutout_mipped",
+	"textures": {
+		"particle": "dt_sonicraft:block/mushroom_hill_toadstool_cap",
+		"cap": "dt_sonicraft:block/mushroom_hill_toadstool_cap"
+	},
+	"elements": [
+		{
+			"name": "Cap",
+			"from": [4, 3, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 11, 8, 16], "texture": "#cap"},
+				"east": {"uv": [8, 11, 0, 16], "texture": "#cap"},
+				"south": {"uv": [0, 11, 8, 16], "texture": "#cap"},
+				"west": {"uv": [8, 11, 0, 16], "texture": "#cap"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#cap"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#cap"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [6, 0, 6],
+			"to": [10, 3, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"faces": {
+				"north": {"uv": [10, 13, 14, 16], "texture": "#cap"},
+				"east": {"uv": [10, 13, 14, 16], "texture": "#cap"},
+				"south": {"uv": [10, 13, 14, 16], "texture": "#cap"},
+				"west": {"uv": [10, 13, 14, 16], "texture": "#cap"},
+				"down": {"uv": [10, 9, 14, 13], "texture": "#cap", "cullface": "down"}
+			}
+		}
+	]
+}

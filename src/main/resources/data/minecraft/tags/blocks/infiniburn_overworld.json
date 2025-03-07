@@ -1,0 +1,7 @@
+{
+  "values": [
+    { "id": "dynamictrees:scorched_neo_palm_branch", "required": false },
+    { "id": "dynamictrees:scorched_neo_palm_leaves", "required": false },
+    { "id": "dynamictrees:scorched_neo_palm_sapling", "required": false }
+  ]
+}

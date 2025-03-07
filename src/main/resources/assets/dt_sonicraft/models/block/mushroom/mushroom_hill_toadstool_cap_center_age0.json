@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/mushroom_block_inside",
+    "side": "sonicraft:block/mushroom_hill_mushroom_block",
+    "top": "sonicraft:block/mushroom_hill_mushroom_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:thick_branch",
+  "textures": {
+    "bark": "sonicraft:block/chillyblossom_log_side_stripped",
+    "rings": "sonicraft:block/chillyblossom_log_top_stripped"
+  }
+}

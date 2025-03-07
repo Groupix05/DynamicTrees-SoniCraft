@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "sonicraft:block/mushroom_hill_stem",
+    "rings": "sonicraft:block/mushroom_hill_stem_top"
+  }
+}

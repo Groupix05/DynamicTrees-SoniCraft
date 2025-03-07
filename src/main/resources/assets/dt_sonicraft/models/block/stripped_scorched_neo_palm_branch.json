@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:thick_branch",
+  "textures": {
+    "bark": "sonicraft:block/green_hill_palm_log_side_stripped_scorched",
+    "rings": "sonicraft:block/green_hill_palm_log_top_scorched"
+  }
+}

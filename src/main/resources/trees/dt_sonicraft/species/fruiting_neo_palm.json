@@ -1,0 +1,137 @@
+{
+  "type": "palm",
+  "family": "dt_sonicraft:neo_palm",
+  "leaves_properties": "dt_sonicraft:neo_palm",
+  "sapling_shape": "slim_sapling",
+  "always_show_on_waila": true,
+  "generate_sapling": true,
+  "generate_seed": true,
+  "transformable": false,
+  "growth_rate": 0.9,
+  "max_branch_radius": 8,
+  "signal_energy": 3.0,
+  "tapering": 0.8,
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 1.1,
+    "hot": 1.1
+  },
+  "perfect_biomes": { "names": [ "sonicraft:angel_island_jungle", "sonicraft:emerald_hill_zone", "sonicraft:green_hill_zone", "sonicraft:mushroom_hill_zone" ] },
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "pods": [ "dt_sonicraft:blue_chao_pod", "dt_sonicraft:green_chao_pod", "dt_sonicraft:orange_chao_pod",
+            "dt_sonicraft:pink_chao_pod", "dt_sonicraft:purple_chao_pod", "dt_sonicraft:red_chao_pod", "dt_sonicraft:yellow_chao_pod" ],
+  "growth_logic_kit": {
+    "name": "palm",
+    "properties": {
+      "height_variation": 2
+    }
+  },
+  "features" : [
+    {
+      "name": "bottom_flare",
+      "properties": {
+        "min_radius": 3
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:orange_chao_pod",
+        "blocks_per_pod": 6,
+        "fruiting_radius": 3,
+        "place_chance": 0.6
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:blue_chao_pod",
+        "blocks_per_pod": 10,
+        "fruiting_radius": 3,
+        "place_chance": 0.005
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:green_chao_pod",
+        "blocks_per_pod": 10,
+        "fruiting_radius": 3,
+        "place_chance": 0.005
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:pink_chao_pod",
+        "blocks_per_pod": 10,
+        "fruiting_radius": 3,
+        "place_chance": 0.005
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:purple_chao_pod",
+        "blocks_per_pod": 10,
+        "fruiting_radius": 3,
+        "place_chance": 0.005
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:red_chao_pod",
+        "blocks_per_pod": 10,
+        "fruiting_radius": 3,
+        "place_chance": 0.005
+      }
+    },
+    {
+      "name": "pod",
+      "properties": {
+        "pod": "dt_sonicraft:yellow_chao_pod",
+        "blocks_per_pod": 10,
+        "fruiting_radius": 3,
+        "place_chance": 0.005
+      }
+    }
+  ],
+  "primitive_saplings": [
+    {
+        "sapling_item": "sonicraft:orange_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:blue_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:green_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:pink_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:purple_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:red_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:yellow_chao_fruit",
+        "sapling_to_seed_extra_ingredient": "sonicraft:green_hill_palm_sapling",
+        "can_craft_seed_to_sapling": false
+    }
+  ]
+}

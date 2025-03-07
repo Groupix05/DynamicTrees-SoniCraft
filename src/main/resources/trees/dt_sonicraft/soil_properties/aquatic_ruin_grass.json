@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "sonicraft:aquatic_ruin_grass",
+  "acceptable_soils": [ "dirt_like" ]
+}

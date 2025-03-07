@@ -1,0 +1,31 @@
+{
+    "family": "oak",
+    "leaves_properties": "oak",
+    "primitive_sapling": "oak_sapling",
+    "growth_rate": 0.8,
+    "signal_energy": 10.0,
+    "tapering": 0.3,
+    "environment_factors" : {
+        "#forge:is_cold": 0.75,
+        "#forge:is_dry": 0.5,
+        "#forge:is_hot": 0.5,
+        "#is_forest": 1.05
+    },
+    "common_override": { "name": "sonicraft:spring_yard" },
+    "perfect_biomes": { "name": "sonicraft:spring_yard" },
+    "acceptable_soils": [ "dirt_like" ],
+    "world_gen_acceptable_soils": [ "dt_sonicraft:road_like" ],
+    "features" : [
+        "bee_nest",
+        "mushroom_rot",
+        {
+            "name": "rot_soil",
+            "properties": {
+                "rotten_soil": "podzol"
+            }
+        }
+    ],
+    "lang_overrides": {
+        "seed": "Oak Acorn"
+    }
+}

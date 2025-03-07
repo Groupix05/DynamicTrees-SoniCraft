@@ -1,0 +1,12 @@
+{
+  "type": "palm",
+  "primitive_log": "sonicraft:green_hill_palm_log",
+  "primitive_stripped_log": "sonicraft:stripped_ghz_palm_log",
+  "common_leaves": "dt_sonicraft:neo_palm",
+  "common_species": "dt_sonicraft:neo_palm",
+  "generate_stripped_branch": true,
+  "loot_volume_multiplier": 3.0,
+  "max_branch_radius": 8,
+  "primary_thickness": 3,
+  "secondary_thickness": 4
+}

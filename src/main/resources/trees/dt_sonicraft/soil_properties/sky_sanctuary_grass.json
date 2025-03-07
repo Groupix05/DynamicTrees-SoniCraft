@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "sonicraft:sky_sanctuary_grass",
+  "acceptable_soils": [ "dirt_like" ]
+}

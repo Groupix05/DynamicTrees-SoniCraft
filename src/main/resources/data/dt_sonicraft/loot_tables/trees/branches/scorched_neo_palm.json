@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dynamictrees:multiply_logs_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "sonicraft:green_hill_palm_log_scorched"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dynamictrees:trees/branches/scorched_neo_palm"
+}

@@ -1,0 +1,6 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "primitive_cap": "sonicraft:mushroom_hill_toadstool_block",
+  "material_color": "COLOR_RED",
+  "mushroom_item": "sonicraft:mushroom_hill_toadstool"
+}

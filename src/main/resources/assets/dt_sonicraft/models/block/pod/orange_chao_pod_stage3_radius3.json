@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"orange_chao_fruit_overlay": "dt_sonicraft:block/orange_chao_fruit_overlay",
+		"particle": "dt_sonicraft:block/orange_chao_fruit",
+		"orange_chao_fruit": "dt_sonicraft:block/orange_chao_fruit"
+	},
+	"elements": [
+		{
+			"name": "fruit",
+			"from": [5, 2.5, 14],
+			"to": [11, 9.5, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 17]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit"},
+				"east": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit"},
+				"south": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit"},
+				"west": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#orange_chao_fruit"},
+				"down": {"uv": [0, 7, 6, 13], "texture": "#orange_chao_fruit"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [4.8, 2.3, 13.8],
+			"to": [11.2, 9.7, 20.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 17]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit_overlay"},
+				"east": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit_overlay"},
+				"south": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit_overlay"},
+				"west": {"uv": [0, 0, 6, 7], "texture": "#orange_chao_fruit_overlay"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#orange_chao_fruit_overlay"},
+				"down": {"uv": [0, 7, 6, 13], "texture": "#orange_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [8, 9.5, 17],
+			"to": [8, 12.5, 21],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -2.5, 1]},
+			"faces": {
+				"east": {"uv": [4, 13, 0, 16], "texture": "#orange_chao_fruit"},
+				"west": {"uv": [0, 13, 4, 16], "texture": "#orange_chao_fruit"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 9.75, 15.9],
+			"to": [13, 9.75, 18.9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 9.75, 17.5]},
+			"faces": {
+				"up": {"uv": [4, 13, 9, 16], "texture": "#orange_chao_fruit"},
+				"down": {"uv": [4, 13, 9, 16], "texture": "#orange_chao_fruit"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [3, 9.75, 15.9],
+			"to": [8, 9.75, 18.9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 9.75, 17.5]},
+			"faces": {
+				"up": {"uv": [9, 13, 4, 16], "texture": "#orange_chao_fruit"},
+				"down": {"uv": [9, 13, 4, 16], "texture": "#orange_chao_fruit"}
+			}
+		}
+	]
+}

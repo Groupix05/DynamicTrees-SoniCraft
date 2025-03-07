@@ -1,0 +1,38 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "type": "dynamictreesplus:mushroom",
+  "family": "dt_sonicraft:mushroom_hill_toadstool",
+  "cap_properties": "dt_sonicraft:mushroom_hill_toadstool",
+  "mega_species": "dt_sonicraft:mega_mushroom_hill_toadstool",
+  "primitive_sapling": "sonicraft:mushroom_hill_toadstool",
+  "mushroom_shape_kit": "dynamictreesplus:bell",
+  "acceptable_soils": [ "dirt_like", "fungus_like" ],
+  "always_show_on_waila": true,
+  "generate_sapling": true,
+  "generate_seed": true,
+  "growth_rate": 1.2,
+  "signal_energy": 6,
+  "soil_longevity": 3,
+  "tapering": 0,
+  "sapling_shape": [
+    [0.375, 0, 0.375, 0.625, 0.1875, 0.625],
+    [0.25, 0.1875, 0.25, 0.75, 0.5, 0.75]
+  ],
+  "features" : [
+    "bottom_flare",
+    {
+      "name": "mound",
+      "properties": {
+        "mound_cutoff_radius": 999
+      }
+    },
+    {
+      "name": "mushroom_rot",
+      "properties": {
+        "_comment": "An alternate mushroom chance of -1 means that a red mushroom will always be generated.",
+        "mushroom": "sonicraft:mushroom_hill_toadstool",
+        "alternate_mushroom_chance": 1
+      }
+    }
+  ]
+}

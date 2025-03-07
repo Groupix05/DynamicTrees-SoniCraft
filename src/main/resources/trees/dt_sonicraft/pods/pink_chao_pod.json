@@ -1,0 +1,33 @@
+{
+  "item_stack": "sonicraft:pink_chao_fruit",
+  "flower_hold_period_length": 0,
+  "max_age": 3,
+  "minimum_radius": 3,
+  "maximum_radius": 6,
+  "block_shapes": {
+    "east": [
+      { "function": "pod", "parameters": { "radius": 3, "height": 6, "stem_length": 1, "side_offset": 5, "side": "east", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 2.7, "height": 4.2, "stem_length": 4.5, "side_offset": 8, "side": "east", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4, "height": 6, "stem_length": 3.5, "side_offset": 7, "side": "east", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4.5, "height": 7.5, "stem_length": 5.5, "side_offset": 6, "side": "east", "fraction": 16 } }
+    ],
+    "west": [
+      { "function": "pod", "parameters": { "radius": 3, "height": 6, "stem_length": 1, "side_offset": 5, "side": "west", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 2.7, "height": 4.2, "stem_length": 4.5, "side_offset": 8, "side": "west", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4, "height": 6, "stem_length": 3.5, "side_offset": 7, "side": "west", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4.5, "height": 7.5, "stem_length": 5.5, "side_offset": 6, "side": "west", "fraction": 16 } }
+    ],
+    "north": [
+      { "function": "pod", "parameters": { "radius": 3, "height": 6, "stem_length": 1, "side_offset": 5, "side": "north", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 2.7, "height": 4.2, "stem_length": 4.5, "side_offset": 8, "side": "north", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4, "height": 6, "stem_length": 3.5, "side_offset": 7, "side": "north", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4.5, "height": 7.5, "stem_length": 5.5, "side_offset": 6, "side": "north", "fraction": 16 } }
+    ],
+    "south": [
+      { "function": "pod", "parameters": { "radius": 3, "height": 6, "stem_length": 1, "side_offset": 5, "side": "south", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 2.7, "height": 4.2, "stem_length": 4.5, "side_offset": 8, "side": "south", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4, "height": 6, "stem_length": 3.5, "side_offset": 7, "side": "south", "fraction": 16 } },
+      { "function": "pod", "parameters": { "radius": 4.5, "height": 7.5, "stem_length": 5.5, "side_offset": 6, "side": "south", "fraction": 16 } }
+    ]
+  }
+}

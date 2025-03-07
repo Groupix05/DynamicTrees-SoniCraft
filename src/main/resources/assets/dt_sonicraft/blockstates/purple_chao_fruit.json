@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "age=0": { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age0" },
+    "age=1": { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age1" },
+    "age=2": [
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age2" },
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age2", "y": 90 },
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age2", "y": 180 },
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age2", "y": 270 }
+    ],
+    "age=3": [
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age3" },
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age3", "y": 90 },
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age3", "y": 180 },
+      { "model": "dt_sonicraft:block/fruit/purple_chao_fruit_age3", "y": 270 }
+    ]
+  }
+}

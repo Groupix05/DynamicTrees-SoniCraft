@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "sonicraft:mushroom_hill_grass",
+  "acceptable_soils": [ "dirt_like", "fungus_like" ]
+}

@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_sonicraft:block/green_chao_fruit",
+		"green_chao_fruit": "dt_sonicraft:block/green_chao_fruit"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [8, 10.5, 15],
+			"to": [8, 12.5, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -1.5, -1]},
+			"faces": {
+				"east": {"uv": [16, 13, 13, 15], "texture": "#green_chao_fruit"},
+				"west": {"uv": [13, 13, 16, 15], "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [6, 6.5, 13],
+			"to": [10, 10.5, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 15]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#green_chao_fruit"},
+				"east": {"uv": [12, 0, 16, 4], "texture": "#green_chao_fruit"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#green_chao_fruit"},
+				"west": {"uv": [12, 0, 16, 4], "texture": "#green_chao_fruit"},
+				"up": {"uv": [12, 4, 16, 8], "texture": "#green_chao_fruit"},
+				"down": {"uv": [12, 8, 16, 12], "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 10.5, 14],
+			"to": [12, 10.5, 17],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 10.5, 15.6]},
+			"faces": {
+				"up": {"uv": [9, 13, 13, 16], "texture": "#green_chao_fruit"},
+				"down": {"uv": [9, 13, 13, 16], "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [4, 10.6, 14],
+			"to": [8, 10.6, 17],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 10.6, 15.6]},
+			"faces": {
+				"up": {"uv": [9, 13, 13, 16], "rotation": 180, "texture": "#green_chao_fruit"},
+				"down": {"uv": [9, 13, 13, 16], "rotation": 180, "texture": "#green_chao_fruit"}
+			}
+		}
+	],
+	"cgreenit": "Made with Blockbench"
+}

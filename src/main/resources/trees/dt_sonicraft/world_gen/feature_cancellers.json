@@ -1,0 +1,43 @@
+[
+  {
+    "__comment": "Cancel standard tree features from Mobius.",
+    "select": { "name": "sonicraft:press_garden_zone" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "sonicraft"
+    }
+  },
+  {
+    "__comment": "Cancel standard tree features from Mobius.",
+    "select": { "name": "sonicraft:ice_cap_zone" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "sonicraft"
+    }
+  },
+  {
+    "__comment": "Cancel standard tree features from Mobius.",
+    "select": { "name": "sonicraft:mushroom_hill_zone" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "sonicraft"
+    }
+  },
+  {
+    "__comment": "Cancel standard tree features from Mobius.",
+    "select": { "name": "sonicraft:spring_yard" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "sonicraft"
+    }
+  },
+  {
+    "_comment": "Cancel regular mushroom generation from Mobius.",
+    "only_if_loaded": [ "dynamictreesplus" ],
+    "select": { "name": "sonicraft:mushroom_hill_zone" },
+    "cancellers": {
+      "type": "mushroom",
+      "namespace": "minecraft"
+    }
+  }
+]

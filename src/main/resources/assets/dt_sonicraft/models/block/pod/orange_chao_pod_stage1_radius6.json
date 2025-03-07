@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_sonicraft:block/orange_chao_fruit",
+		"orange_chao_fruit": "dt_sonicraft:block/orange_chao_fruit"
+	},
+	"elements": [
+		{
+			"name": "fruit",
+			"from": [6.5, 6, 15],
+			"to": [9.5, 10, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16.5]},
+			"faces": {
+				"north": {"uv": [6, 6, 9, 10], "texture": "#orange_chao_fruit"},
+				"east": {"uv": [6, 6, 9, 10], "texture": "#orange_chao_fruit"},
+				"south": {"uv": [6, 6, 9, 10], "texture": "#orange_chao_fruit"},
+				"west": {"uv": [6, 6, 9, 10], "texture": "#orange_chao_fruit"},
+				"up": {"uv": [9, 6, 12, 9], "texture": "#orange_chao_fruit"},
+				"down": {"uv": [6, 10, 9, 13], "texture": "#orange_chao_fruit"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [8, 10, 16],
+			"to": [8, 12, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -2, 0]},
+			"faces": {
+				"east": {"uv": [11, 9, 9, 11], "texture": "#orange_chao_fruit"},
+				"west": {"uv": [9, 9, 11, 11], "texture": "#orange_chao_fruit"}
+			}
+		}
+	]
+}

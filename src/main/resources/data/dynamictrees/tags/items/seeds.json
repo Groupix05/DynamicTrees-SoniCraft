@@ -1,0 +1,9 @@
+{
+  "values": [
+    { "id": "dynamictrees:chilly_blossom_seed", "required": false },
+    { "id": "dynamictrees:deciduous_neo_palm_seed", "required": false },
+    { "id": "dynamictrees:ice_cap_chilly_blossom_seed", "required": false },
+    { "id": "dynamictrees:neo_palm_seed", "required": false },
+    { "id": "dynamictrees:scorched_neo_palm_seed", "required": false }
+  ]
+}

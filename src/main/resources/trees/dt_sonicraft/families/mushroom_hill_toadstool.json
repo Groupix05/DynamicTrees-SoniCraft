@@ -1,0 +1,11 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "type": "dynamictreesplus:mushroom",
+  "common_cap": "dt_sonicraft:mushroom_hill_toadstool",
+  "common_species": "dt_sonicraft:mushroom_hill_toadstool",
+  "primitive_log": "sonicraft:mushroom_hill_toadstool_stem",
+  "stick": "air",
+  "generate_stripped_branch": false,
+  "max_branch_radius": 24,
+  "max_signal_depth": 64
+}

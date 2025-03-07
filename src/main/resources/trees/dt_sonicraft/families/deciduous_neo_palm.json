@@ -1,0 +1,11 @@
+{
+  "primitive_log": "sonicraft:stripped_ghz_palm_log",
+  "primitive_stripped_log": "sonicraft:stripped_ghz_palm_log",
+  "common_leaves": "dt_sonicraft:deciduous_neo_palm",
+  "common_species": "dt_sonicraft:deciduous_neo_palm",
+  "conifer_variants": true,
+  "generate_stripped_branch": true,
+  "generate_surface_root": true,
+  "max_branch_radius": 24,
+  "max_signal_depth": 128
+}

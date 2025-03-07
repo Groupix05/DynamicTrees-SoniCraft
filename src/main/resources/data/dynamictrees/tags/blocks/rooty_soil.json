@@ -1,0 +1,25 @@
+{
+  "values": [
+    { "id": "dynamictrees:rooty_angel_island_dirt", "required": false },
+    { "id": "dynamictrees:rooty_angel_island_dirt_scorched", "required": false },
+    { "id": "dynamictrees:rooty_angel_island_grass", "required": false },
+    { "id": "dynamictrees:rooty_angel_island_grass_scorched", "required": false },
+    { "id": "dynamictrees:rooty_aquatic_ruin_grass", "required": false },
+    { "id": "dynamictrees:rooty_chao_garden_grass", "required": false },
+    { "id": "dynamictrees:rooty_ehz_dirt", "required": false },
+    { "id": "dynamictrees:rooty_ehz_dirt_pillar", "required": false },
+    { "id": "dynamictrees:rooty_ehz_grass", "required": false },
+    { "id": "dynamictrees:rooty_ghz_dirt", "required": false },
+    { "id": "dynamictrees:rooty_ghz_grass", "required": false },
+    { "id": "dynamictrees:rooty_ice_cap_road", "required": false },
+    { "id": "dynamictrees:rooty_marble_garden_grass", "required": false },
+    { "id": "dynamictrees:rooty_marble_zone_grass", "required": false },
+    { "id": "dynamictrees:rooty_mushroom_hill_dirt", "required": false },
+    { "id": "dynamictrees:rooty_mushroom_hill_grass", "required": false },
+    { "id": "dynamictrees:rooty_press_garden_grass", "required": false },
+    { "id": "dynamictrees:rooty_sandopolis_quicksand", "required": false },
+    { "id": "dynamictrees:rooty_sandopolis_sand", "required": false },
+    { "id": "dynamictrees:rooty_sky_sanctuary_grass", "required": false },
+    { "id": "dynamictrees:rooty_snowy_press_garden_grass", "required": false },
+    { "id": "dynamictrees:rooty_spring_yard_road", "required": false }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "palm",
+  "family": "dt_sonicraft:scorched_neo_palm",
+  "leaves_properties": "dt_sonicraft:scorched_neo_palm",
+  "primitive_saplings": [
+    {
+        "sapling_item": "sonicraft:green_hill_palm_sapling",
+        "sapling_to_seed_extra_ingredient": "sonicraft:angel_island_dirt_scorched",
+        "can_craft_seed_to_sapling": false
+    }
+  ],
+  "sapling_shape": "slim_sapling",
+  "always_show_on_waila": true,
+  "transformable": false,
+  "growth_rate": 0.7,
+  "max_branch_radius": 8,
+  "signal_energy": 2.5,
+  "tapering": 0.8,
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 1.2,
+    "hot": 1.2
+  },
+  "perfect_biomes": { "names": [ "sonicraft:scorched_angel_island_jungle" ] },
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "growth_logic_kit": {
+    "name": "palm",
+    "properties": {
+      "height_variation": 2
+    }
+  },
+  "features" : [
+    {
+      "name": "bottom_flare",
+      "properties": {
+        "min_radius": 3
+      }
+    }
+  ]
+}

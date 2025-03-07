@@ -1,0 +1,8 @@
+{
+  "values": [
+    { "id": "dynamictrees:chilly_blossom_branch", "required": false },
+    { "id": "dynamictrees:deciduous_neo_palm_branch", "required": false },
+    { "id": "dynamictrees:neo_palm_branch", "required": false },
+    { "id": "dynamictrees:scorched_neo_palm_branch", "required": false }
+  ]
+}

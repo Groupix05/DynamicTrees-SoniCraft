@@ -1,0 +1,96 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"pink_chao_fruit_overlay": "dt_sonicraft:block/pink_chao_fruit_overlay",
+		"particle": "dt_sonicraft:block/pink_chao_fruit",
+		"pink_chao_pod": "dt_sonicraft:block/pink_chao_fruit"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [8, 7.5, 14],
+			"to": [8, 12.5, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -4.5, -2]},
+			"faces": {
+				"east": {"uv": [12, 8, 8, 13], "texture": "#pink_chao_fruit_overlay"},
+				"west": {"uv": [8, 8, 12, 13], "texture": "#pink_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [4, 4, 12],
+			"to": [8, 11, 17],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.75, 8, 15]},
+			"faces": {
+				"north": {"uv": [4, 0, 0, 7], "texture": "#pink_chao_pod"},
+				"east": {"uv": [0, 7, 5, 14], "texture": "#pink_chao_pod"},
+				"south": {"uv": [0, 0, 4, 7], "texture": "#pink_chao_pod"},
+				"west": {"uv": [7, 0, 12, 7], "texture": "#pink_chao_pod"},
+				"up": {"uv": [0, 7, 5, 11], "rotation": 90, "texture": "#pink_chao_pod"},
+				"down": {"uv": [7, 3, 12, 7], "rotation": 90, "texture": "#pink_chao_pod"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [8, 4, 12],
+			"to": [11, 8, 17],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.75, 8, 15]},
+			"faces": {
+				"north": {"uv": [7, 3, 4, 7], "texture": "#pink_chao_pod"},
+				"east": {"uv": [0, 7, 5, 11], "texture": "#pink_chao_pod"},
+				"south": {"uv": [4, 3, 7, 7], "texture": "#pink_chao_pod"},
+				"up": {"uv": [0, 7, 5, 10], "rotation": 90, "texture": "#pink_chao_pod"},
+				"down": {"uv": [7, 0, 12, 3], "rotation": 90, "texture": "#pink_chao_pod"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [3.8, 4, 11.8],
+			"to": [8, 11.2, 17.2],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.75, 8.2, 14.8]},
+			"faces": {
+				"north": {"uv": [4, 0, 0, 7], "texture": "#pink_chao_fruit_overlay"},
+				"east": {"uv": [0, 7, 7, 14], "texture": "#pink_chao_fruit_overlay"},
+				"south": {"uv": [0, 0, 4, 7], "texture": "#pink_chao_fruit_overlay"},
+				"west": {"uv": [7, 0, 12, 7], "texture": "#pink_chao_fruit_overlay"},
+				"up": {"uv": [0, 7, 5, 11], "rotation": 90, "texture": "#pink_chao_fruit_overlay"},
+				"down": {"uv": [7, 3, 12, 7], "rotation": 90, "texture": "#pink_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [8, 4, 11.8],
+			"to": [11, 8.1, 17.2],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.75, 8.2, 14.8]},
+			"faces": {
+				"north": {"uv": [7, 3, 4, 7], "texture": "#pink_chao_fruit_overlay"},
+				"east": {"uv": [0, 7, 5, 11], "texture": "#pink_chao_fruit_overlay"},
+				"south": {"uv": [4, 3, 7, 7], "texture": "#pink_chao_fruit_overlay"},
+				"up": {"uv": [0, 7, 7, 10], "rotation": 90, "texture": "#pink_chao_fruit_overlay"},
+				"down": {"uv": [7, 0, 12, 3], "rotation": 90, "texture": "#pink_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 8.65, 13],
+			"to": [13, 8.65, 16],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8.65, 14.5]},
+			"faces": {
+				"up": {"uv": [0, 13, 5, 16], "texture": "#pink_chao_fruit_overlay"},
+				"down": {"uv": [0, 13, 5, 16], "texture": "#pink_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [3, 8.65, 13],
+			"to": [8, 8.65, 16],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8.65, 14.5]},
+			"faces": {
+				"up": {"uv": [0, 13, 5, 16], "rotation": 180, "texture": "#pink_chao_fruit_overlay"},
+				"down": {"uv": [0, 13, 5, 16], "rotation": 180, "texture": "#pink_chao_fruit_overlay"}
+			}
+		}
+	],
+	"cpinkit": "Made with Blockbench"
+}

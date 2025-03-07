@@ -1,0 +1,113 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_sonicraft:block/blue_chao_fruit",
+		"blue_chao_fruit": "dt_sonicraft:block/blue_chao_fruit",
+		"blue_chao_fruit_overlay": "dt_sonicraft:block/blue_chao_fruit_overlay",
+		"blue_chao_fruit_overlay2": "dt_sonicraft:block/blue_chao_fruit_overlay2"
+	},
+	"elements": [
+		{
+			"name": "fruit",
+			"from": [5.5, 10, 5.5],
+			"to": [10.5, 13, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 11, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit"},
+				"east": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit"},
+				"south": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit"},
+				"west": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit"},
+				"up": {"uv": [6, 0, 11, 5], "texture": "#blue_chao_fruit"},
+				"down": {"uv": [0, 7, 5, 12], "texture": "#blue_chao_fruit"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [5.3, 9.8, 5.3],
+			"to": [10.7, 13.2, 10.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 11, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit_overlay"},
+				"east": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit_overlay"},
+				"south": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit_overlay"},
+				"west": {"uv": [0, 0, 5, 3], "texture": "#blue_chao_fruit_overlay"},
+				"up": {"uv": [6, 6, 11, 11], "texture": "#blue_chao_fruit_overlay"},
+				"down": {"uv": [0, 7, 5, 12], "texture": "#blue_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [5, 6, 5],
+			"to": [11, 10, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit"},
+				"east": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit"},
+				"south": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit"},
+				"west": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#blue_chao_fruit"},
+				"down": {"uv": [0, 7, 6, 13], "texture": "#blue_chao_fruit"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [4.8, 5.8, 4.8],
+			"to": [11.2, 10.2, 11.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay"},
+				"east": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay"},
+				"south": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay"},
+				"west": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#blue_chao_fruit_overlay"},
+				"down": {"uv": [0, 7, 6, 13], "texture": "#blue_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit_overlay2",
+			"from": [4.6, 5.6, 4.6],
+			"to": [11.4, 10.4, 11.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay2"},
+				"east": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay2"},
+				"south": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay2"},
+				"west": {"uv": [0, 3, 6, 7], "texture": "#blue_chao_fruit_overlay2"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#blue_chao_fruit_overlay2"},
+				"down": {"uv": [0, 7, 6, 13], "texture": "#blue_chao_fruit_overlay2"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [8, 13, 7.5],
+			"to": [8, 16, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 8, -8.5]},
+			"faces": {
+				"east": {"uv": [1, 13, 4, 16], "rotation": 90, "texture": "#blue_chao_fruit"},
+				"west": {"uv": [1, 16, 4, 13], "rotation": 90, "texture": "#blue_chao_fruit"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 13.25, 6.5],
+			"to": [12, 13.25, 9.5],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 13.25, 7.75]},
+			"faces": {
+				"up": {"uv": [5, 13, 9, 16], "texture": "#blue_chao_fruit"},
+				"down": {"uv": [5, 13, 9, 16], "texture": "#blue_chao_fruit"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 13.25, 6.5],
+			"to": [13, 13.25, 9.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 13.25, 7.75]},
+			"faces": {
+				"up": {"uv": [4, 13, 9, 16], "texture": "#blue_chao_fruit"},
+				"down": {"uv": [4, 13, 9, 16], "texture": "#blue_chao_fruit"}
+			}
+		}
+	],
+	"cblueit": "Made with Blockbench"
+}

@@ -1,0 +1,139 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"purple_chao_fruit_overlay": "dt_sonicraft:block/purple_chao_fruit_overlay",
+		"particle": "dt_sonicraft:block/purple_chao_fruit",
+		"purple_chao_pod": "dt_sonicraft:block/purple_chao_fruit",
+		"purple_chao_fruit_leaves": "dt_sonicraft:block/purple_chao_fruit_leaves"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [8, 9.5, 16],
+			"to": [8, 12.5, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -2.5, 0]},
+			"faces": {
+				"east": {"uv": [4, 0, 0, 3], "texture": "#purple_chao_fruit_leaves"},
+				"west": {"uv": [0, 0, 4, 3], "texture": "#purple_chao_fruit_leaves"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 9.75, 15],
+			"to": [13, 9.75, 18],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 9.75, 16.5]},
+			"faces": {
+				"up": {"uv": [4, 0, 9, 3], "texture": "#purple_chao_fruit_leaves"},
+				"down": {"uv": [4, 0, 9, 3], "texture": "#purple_chao_fruit_leaves"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [6.5, 7.5, 15],
+			"to": [9.5, 9.5, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 8.5, 18]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_pod"},
+				"east": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_pod"},
+				"south": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_pod"},
+				"west": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_pod"},
+				"up": {"uv": [7, 1, 10, 4], "texture": "#purple_chao_pod"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [6, 5.5, 14.5],
+			"to": [10, 7.5, 18.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 6.5, 17.5]},
+			"faces": {
+				"north": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_pod"},
+				"east": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_pod"},
+				"south": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_pod"},
+				"west": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_pod"},
+				"up": {"uv": [6, 0, 10, 4], "texture": "#purple_chao_pod"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [5.5, 3.5, 14],
+			"to": [10.5, 5.5, 19],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.5, 17]},
+			"faces": {
+				"north": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_pod"},
+				"east": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_pod"},
+				"south": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_pod"},
+				"west": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_pod"},
+				"up": {"uv": [6, 0, 11, 5], "texture": "#purple_chao_pod"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [5, 1.5, 13.5],
+			"to": [11, 3.5, 19.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 16.5]},
+			"faces": {
+				"north": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_pod"},
+				"east": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_pod"},
+				"south": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_pod"},
+				"west": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_pod"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#purple_chao_pod"},
+				"down": {"uv": [0, 8, 6, 14], "texture": "#purple_chao_pod"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [6.3, 7.3, 14.8],
+			"to": [9.7, 9.7, 18.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 8.5, 18]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_fruit_overlay"},
+				"east": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_fruit_overlay"},
+				"south": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_fruit_overlay"},
+				"west": {"uv": [0, 0, 3, 2], "texture": "#purple_chao_fruit_overlay"},
+				"up": {"uv": [12, 4, 15, 7], "texture": "#purple_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [5.8, 5.3, 14.3],
+			"to": [10.2, 7.7, 18.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 6.5, 17.5]},
+			"faces": {
+				"north": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_fruit_overlay"},
+				"east": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_fruit_overlay"},
+				"south": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_fruit_overlay"},
+				"west": {"uv": [0, 2, 4, 4], "texture": "#purple_chao_fruit_overlay"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#purple_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [5.3, 3.3, 13.8],
+			"to": [10.7, 5.7, 19.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.5, 17]},
+			"faces": {
+				"north": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_fruit_overlay"},
+				"east": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_fruit_overlay"},
+				"south": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_fruit_overlay"},
+				"west": {"uv": [0, 4, 5, 6], "texture": "#purple_chao_fruit_overlay"},
+				"up": {"uv": [6, 6, 11, 11], "texture": "#purple_chao_fruit_overlay"}
+			}
+		},
+		{
+			"name": "fruit_overlay",
+			"from": [4.8, 1.3, 13.3],
+			"to": [11.2, 3.7, 19.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 16.5]},
+			"faces": {
+				"north": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_fruit_overlay"},
+				"east": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_fruit_overlay"},
+				"south": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_fruit_overlay"},
+				"west": {"uv": [0, 6, 6, 8], "texture": "#purple_chao_fruit_overlay"},
+				"up": {"uv": [6, 0, 12, 6], "texture": "#purple_chao_fruit_overlay"},
+				"down": {"uv": [0, 8, 6, 14], "texture": "#purple_chao_fruit_overlay"}
+			}
+		}
+	],
+	"cpurpleit": "Made with Blockbench"
+}

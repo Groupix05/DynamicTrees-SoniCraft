@@ -1,0 +1,8 @@
+{
+  "type": "spreadable",
+  "primitive_soil": "sonicraft:mushroom_hill_dirt",
+  "acceptable_soils": [ "dirt_like", "fungus_like" ],
+
+  "required_light": 9,
+  "spreadable_soils": [ "dt_sonicraft:mushroom_hill_grass" ]
+}

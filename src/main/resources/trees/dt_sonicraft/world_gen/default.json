@@ -1,0 +1,162 @@
+[
+  {
+    "_comment": "Generates Neo Palms in the Angel Island, Emerald Hill, Green Hill Zones.",
+    "select": { "OR": [
+	    { "name":"sonicraft:angel_island_jungle" },
+	    { "name":"sonicraft:emerald_hill_zone" },
+		{ "name":"sonicraft:green_hill_zone" }
+      ]
+	},
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:neo_palm": 10,
+          "dt_sonicraft:fruiting_neo_palm": 1
+        }
+      },
+      "density": 0.1,
+      "chance": 0.25
+    }
+  },
+  {
+    "_comment": "Generates Scroched Neo Palms in the Scorched Angel Island Zone.",
+    "select": {
+      "name": "sonicraft:scorched_angel_island_jungle"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:scorched_neo_palm": 1
+        }
+      },
+      "density": 0.1,
+      "chance": 0.25
+    }
+  },
+  {
+    "_comment": "Generates Spring Yard Oaks in the Spring Yard.",
+    "select": {
+      "name": "sonicraft:ice_cap_zone"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:ice_cap_chilly_blossom": 1
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.35,
+      "forestness": 0.8
+    }
+  },
+  {
+    "_comment": "Generates Deciduous Neo Palms in the Mushroom Hill Zone.",
+    "select": {
+      "name": "sonicraft:mushroom_hill_zone"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:deciduous_neo_palm": 10,
+          "dt_sonicraft:fruiting_deciduous_neo_palm": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [ "noise", 2.0 ]
+        }
+      },
+      "chance": 1.0,
+      "forestness": 1.0,
+      "multipass": true
+    }
+  },
+  {
+    "_comment": "Generates Chilly Blossoms in the Press Garden Zone.",
+    "select": {
+      "name": "sonicraft:press_garden_zone"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:chilly_blossom": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [ "noise", 2.0 ]
+        }
+      },
+      "chance": 1.0,
+      "forestness": 1.0,
+      "multipass": true
+    }
+  },
+  {
+    "_comment": "Generates Spring Yard Oaks in the Spring Yard.",
+    "select": {
+      "name": "sonicraft:spring_yard"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:spring_yard_oak": 1
+        }
+      },
+      "density": [ 0.9 ],
+      "chance": 0.7,
+      "forestness": 0.8
+    }
+  },
+  {
+    "_comment": "Generates Giant Tadstools in the Mushroom Hill Zone.",
+    "only_if_loaded": [ "dynamictreesplus" ],
+    "select": {
+      "name": "sonicraft:mushroom_hill_zone"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dt_sonicraft:mushroom_hill_toadstool": 4,
+          "dt_sonicraft:mega_mushroom_hill_toadstool": 1,
+          "..." : 95
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Generates cactus in the Sandopolis Zone.",
+    "only_if_loaded": [ "dynamictreesplus" ],
+    "select": {
+      "name": "sonicraft:sandopolis_zone"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictreesplus:pillar_cactus": 6,
+          "dynamictreesplus:pipe_cactus": 1,
+          "dynamictreesplus:saguaro_cactus": 1
+        }
+      },
+      "density": { "math": { "add": [ { "mul": [ "noise", 0.6 ] },  0.2 ] } },
+      "chance": 0.1
+    }
+  },
+  {
+    "_comment": "Generates Ecologic's cactus in the Sandopolis Zone.",
+    "only_if_loaded": [ "dynamictreesplus", "dtecologics" ],
+    "select": {
+      "name": "sonicraft:sandopolis_zone"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dtecologics:prickly_pear_cactus" : 1,
+          "..." : 10
+        }
+      }
+    }
+  }
+]

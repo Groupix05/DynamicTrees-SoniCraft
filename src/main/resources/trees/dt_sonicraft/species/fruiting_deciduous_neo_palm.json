@@ -1,0 +1,156 @@
+{
+  "family": "dt_sonicraft:deciduous_neo_palm",
+  "leaves_properties": "dt_sonicraft:deciduous_neo_palm",
+  "generate_sapling": true,
+  "generate_seed": true,
+  "growth_rate": 1.2,
+  "lowest_branch_height": 20,
+  "max_branch_radius": 23,
+  "signal_energy": 25.0,
+  "soil_longevity": 20,
+  "tapering": 0.4,
+  "up_probability": 8,
+  "world_gen_leaf_map_height": 40,
+  "environment_factors" : {
+	"#forge:is_cold": 0.75,
+	"#forge:is_dry": 0.25,
+	"#forge:is_hot": 0.5,
+	"mushroom": 1.25
+  },
+  "perfect_biomes": { "name": "sonicraft:mushroom_hill_zone" },
+  "acceptable_soils": [ "dirt_like" ],
+  "growth_logic_kit": {
+    "name": "dark_oak",
+    "properties": {
+      "height_variation": 10
+    }
+  },
+  "fruits": [ "dt_sonicraft:blue_chao_fruit", "dt_sonicraft:green_chao_fruit", "dt_sonicraft:orange_chao_fruit",
+              "dt_sonicraft:pink_chao_fruit", "dt_sonicraft:purple_chao_fruit", "dt_sonicraft:red_chao_fruit", "dt_sonicraft:yellow_chao_fruit" ],
+  "features" : [
+    "bottom_flare",
+    "mound",
+    {
+      "name": "clear_volume",
+      "properties": {
+        "height": 6
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:orange_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.4,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:blue_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.01,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:green_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.01,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:pink_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.01,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:purple_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.01,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:red_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.01,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_sonicraft:yellow_chao_fruit",
+        "fruiting_radius": 5,
+        "place_chance": 0.01,
+        "quantity": 1
+      }
+    },
+    {
+      "name": "mushroom_rot",
+      "properties": {
+        "_comment": "An alternate mushroom chance of -1 means that a red mushroom will always be generated.",
+        "mushroom": "sonicraft:mushroom_hill_toadstool",
+        "alternate_mushroom_chance": 1
+      }
+    },
+    {
+      "name": "roots",
+      "properties": {
+        "level_limit": 8,
+        "min_trunk_radius": 9,
+        "scale_factor": 15
+      }
+    }
+  ],
+  "primitive_saplings": [
+    {
+        "sapling_item": "sonicraft:orange_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:blue_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:green_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:pink_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:purple_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:red_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    },
+    {
+        "sapling_item": "sonicraft:yellow_chao_fruit",
+        "sapling_to_seed_extra_ingredients": [ "sonicraft:green_hill_palm_sapling", "sonicraft:mushroom_hill_dirt" ],
+        "can_craft_seed_to_sapling": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "family": "dt_sonicraft:chilly_blossom",
+  "leaves_properties": "dt_sonicraft:chilly_blossom",
+  "growth_rate": 1.2,
+  "lowest_branch_height": 8,
+  "max_branch_radius": 23,
+  "signal_energy": 22.0,
+  "soil_longevity": 16,
+  "tapering": 0.5,
+  "up_probability": 8,
+  "world_gen_leaf_map_height": 40,
+  "environment_factors" : {
+    "#forge:is_dry": 0.25,
+    "#forge:is_hot": 0.50,
+    "#forge:is_wet": 0.75
+  },
+  "perfect_biomes": { "name": "sonicraft:press_garden_zone" },
+  "acceptable_soils": [ "dirt_like" ],
+  "growth_logic_kit": {
+    "name": "jungle",
+    "properties": {
+      "branch_out_chance": 3,
+      "canopy_height": 10
+    }
+  },
+  "features" : [
+    "bottom_flare",
+    "mound",
+    {
+      "name": "clear_volume",
+      "properties": {
+        "height": 6
+      }
+    },
+    {
+      "name": "roots",
+      "properties": {
+        "level_limit": 8,
+        "min_trunk_radius": 9,
+        "scale_factor": 15
+      }
+    }
+  ]
+}

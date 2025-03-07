@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "sonicraft:ice_cap_road",
+  "acceptable_soils": [ "dirt_like", "dt_sonicraft:road_like" ]
+}

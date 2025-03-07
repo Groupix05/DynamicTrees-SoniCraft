@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_sonicraft:block/green_chao_fruit_flower",
+		"green_chao_fruit": "dt_sonicraft:block/green_chao_fruit_flower"
+	},
+	"elements": [
+		{
+			"name": "pollen",
+			"from": [7, 11, 19.98],
+			"to": [9, 13, 19.98],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 20]},
+			"faces": {
+				"north": {"uv": [7, 7, 9, 9], "texture": "#green_chao_fruit"},
+				"south": {"uv": [7, 7, 9, 9], "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "petal",
+			"from": [9, 9, 19.98],
+			"to": [13, 15, 19.98],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [9, 12, 20]},
+			"faces": {
+				"north": {"uv": [5, 7, 11, 3], "rotation": 90, "texture": "#green_chao_fruit"},
+				"south": {"uv": [5, 7, 11, 3], "rotation": 270, "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "petal",
+			"from": [3, 9, 19.98],
+			"to": [7, 15, 19.98],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 12, 20]},
+			"faces": {
+				"north": {"uv": [5, 7, 11, 3], "rotation": 270, "texture": "#green_chao_fruit"},
+				"south": {"uv": [5, 3, 11, 7], "rotation": 270, "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "petal",
+			"from": [5, 13, 19.98],
+			"to": [11, 17, 19.98],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 13, 20]},
+			"faces": {
+				"north": {"uv": [5, 3, 11, 7], "texture": "#green_chao_fruit"},
+				"south": {"uv": [5, 3, 11, 7], "texture": "#green_chao_fruit"}
+			}
+		},
+		{
+			"name": "petal",
+			"from": [5, 7, 19.98],
+			"to": [11, 11, 19.98],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 11, 20]},
+			"faces": {
+				"north": {"uv": [5, 7, 11, 3], "texture": "#green_chao_fruit"},
+				"south": {"uv": [5, 7, 11, 3], "texture": "#green_chao_fruit"}
+			}
+		}
+	],
+	"cgreenit": "Made with Blockbench"
+}

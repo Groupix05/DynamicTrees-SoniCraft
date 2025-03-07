@@ -1,0 +1,33 @@
+{
+  "type": "palm",
+  "family": "dt_sonicraft:neo_palm",
+  "leaves_properties": "dt_sonicraft:neo_palm",
+  "primitive_sapling": "sonicraft:green_hill_palm_sapling",
+  "sapling_shape": "slim_sapling",
+  "transformable": false,
+  "growth_rate": 0.9,
+  "max_branch_radius": 8,
+  "signal_energy": 3.0,
+  "tapering": 0.8,
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 1.1,
+    "hot": 1.1
+  },
+  "perfect_biomes": { "names": [ "sonicraft:angel_island_jungle", "sonicraft:emerald_hill_zone", "sonicraft:green_hill_zone", "sonicraft:mushroom_hill_zone" ] },
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "growth_logic_kit": {
+    "name": "palm",
+    "properties": {
+      "height_variation": 2
+    }
+  },
+  "features" : [
+    {
+      "name": "bottom_flare",
+      "properties": {
+        "min_radius": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "primitive_log": "sonicraft:chilly_blossom_log",
+  "primitive_stripped_log": "sonicraft:stripped_chilly_blossom_log",
+  "common_leaves": "dt_sonicraft:chilly_blossom",
+  "common_species": "dt_sonicraft:chilly_blossom",
+  "generate_stripped_branch": true,
+  "generate_surface_root": true,
+  "max_branch_radius": 24,
+  "max_signal_depth": 64
+}

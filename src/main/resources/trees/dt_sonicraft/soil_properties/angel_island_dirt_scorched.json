@@ -1,0 +1,8 @@
+{
+  "type": "spreadable",
+  "primitive_soil": "sonicraft:angel_island_dirt_scorched",
+  "acceptable_soils": [ "dirt_like" ],
+
+  "required_light": 9,
+  "spreadable_soils": [ "dt_sonicraft:angel_island_grass_scorched" ]
+}

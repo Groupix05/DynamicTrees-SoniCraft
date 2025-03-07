@@ -1,0 +1,66 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "dt_sonicraft:block/mushroom/mushroom_hill_toadstool_cap_center_age0"
+      },
+      "when": {
+        "age": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "sonicraft:block/mushroom_hill_toadstool_block",
+        "uvlock": true,
+        "x": 270
+      },
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside"
+      },
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 90
+      },
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 180
+      },
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 270
+      },
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "x": 90
+      },
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      }
+    }
+  ]
+}

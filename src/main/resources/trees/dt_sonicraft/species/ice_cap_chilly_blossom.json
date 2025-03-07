@@ -1,0 +1,18 @@
+{
+  "family": "dt_sonicraft:chilly_blossom",
+  "leaves_properties": "dt_sonicraft:ice_cap_chilly_blossom",
+  "generate_sapling": true,
+  "generate_seed": true,
+  "growth_rate": 0.9,
+  "max_branch_radius": 10,
+  "signal_energy": 12.0,
+  "tapering": 0.3,
+  "environment_factors" : {
+    "#forge:is_dry": 0.25,
+    "#forge:is_hot": 0.50,
+    "#forge:is_wet": 0.75
+  },
+  "perfect_biomes": { "name": "sonicraft:ice_cap_zone" },
+  "acceptable_soils": [ "dirt_like" ],
+  "features" : []
+}

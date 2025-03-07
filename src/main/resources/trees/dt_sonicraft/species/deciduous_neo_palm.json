@@ -1,0 +1,59 @@
+{
+  "family": "dt_sonicraft:deciduous_neo_palm",
+  "leaves_properties": "dt_sonicraft:deciduous_neo_palm",
+  "primitive_saplings": [
+    {
+        "sapling_item": "sonicraft:green_hill_palm_sapling",
+        "sapling_to_seed_extra_ingredient": "sonicraft:mushroom_hill_dirt",
+        "can_craft_seed_to_sapling": false
+    }
+  ],
+  "growth_rate": 1.2,
+  "lowest_branch_height": 20,
+  "max_branch_radius": 23,
+  "signal_energy": 25.0,
+  "soil_longevity": 20,
+  "tapering": 0.4,
+  "up_probability": 8,
+  "world_gen_leaf_map_height": 40,
+  "environment_factors" : {
+	"#forge:is_cold": 0.75,
+	"#forge:is_dry": 0.25,
+	"#forge:is_hot": 0.5,
+	"mushroom": 1.25
+  },
+  "perfect_biomes": { "name": "sonicraft:mushroom_hill_zone" },
+  "acceptable_soils": [ "dirt_like" ],
+  "growth_logic_kit": {
+    "name": "dark_oak",
+    "properties": {
+      "height_variation": 10
+    }
+  },
+  "features" : [
+    "bottom_flare",
+    "mound",
+    {
+      "name": "clear_volume",
+      "properties": {
+        "height": 6
+      }
+    },
+    {
+      "name": "mushroom_rot",
+      "properties": {
+        "_comment": "An alternate mushroom chance of -1 means that a red mushroom will always be generated.",
+        "mushroom": "sonicraft:mushroom_hill_toadstool",
+        "alternate_mushroom_chance": 1
+      }
+    },
+    {
+      "name": "roots",
+      "properties": {
+        "level_limit": 8,
+        "min_trunk_radius": 9,
+        "scale_factor": 15
+      }
+    }
+  ]
+}
