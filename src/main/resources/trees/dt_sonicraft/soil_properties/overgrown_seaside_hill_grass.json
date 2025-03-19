@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "sonicraft:overgrown_seaside_hill_grass",
+  "acceptable_soils": [ "dirt_like" ]
+}
