@@ -4,7 +4,7 @@
 	"render_type": "minecraft:cutout_mipped",
 	"textures": {
 		"cross": "dt_sonicraft:block/scorched_green_hill_palm_sapling",
-		"particle": "dt_sonicraft:block/gscorched_reen_hill_palm_sapling"
+		"particle": "dt_sonicraft:block/scorched_green_hill_palm_sapling"
 	},
 	"elements": [
 		{
