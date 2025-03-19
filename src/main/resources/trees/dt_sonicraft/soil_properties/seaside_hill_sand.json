@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "sonicraft:seaside_hill_sand",
+  "acceptable_soils": [ "sand_like" ]
+}

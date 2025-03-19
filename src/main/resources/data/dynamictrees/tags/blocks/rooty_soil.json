@@ -21,6 +21,7 @@
     { "id": "dt_sonicraft:rooty_press_garden_grass", "required": false },
     { "id": "dt_sonicraft:rooty_sandopolis_quicksand", "required": false },
     { "id": "dt_sonicraft:rooty_sandopolis_sand", "required": false },
+    { "id": "dt_sonicraft:rooty_seaside_hill_sand", "required": false },
     { "id": "dt_sonicraft:rooty_seaside_hill_dirt", "required": false },
     { "id": "dt_sonicraft:rooty_seaside_hill_grass", "required": false },
     { "id": "dt_sonicraft:rooty_sky_sanctuary_grass", "required": false },
