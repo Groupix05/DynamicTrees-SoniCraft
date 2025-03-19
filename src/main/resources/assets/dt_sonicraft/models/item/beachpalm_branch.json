@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "sonicraft:block/beachpalm_log_side",
+    "rings": "sonicraft:block/beachpalm_log_top"
+  }
+}
