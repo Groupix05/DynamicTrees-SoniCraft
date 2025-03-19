@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "dynamictrees:blue_chao_fruit",
+              "block": "dt_sonicraft:blue_chao_fruit",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "age": "3"

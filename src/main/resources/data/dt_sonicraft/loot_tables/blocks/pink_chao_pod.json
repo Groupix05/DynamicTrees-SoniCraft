@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "dynamictrees:pink_chao_pod",
+              "block": "dt_sonicraft:pink_chao_pod",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "age": "3"
