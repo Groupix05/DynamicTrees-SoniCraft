@@ -1,0 +1,39 @@
+{
+  "type": "palm",
+  "family": "dt_sonicraft:beachpalm",
+  "leaves_properties": "dt_sonicraft:beachpalm",
+  "primitive_saplings": [
+    {
+      "sapling_item": "sonicraft:green_hill_palm_sapling",
+      "sapling_to_seed_extra_ingredient": "sonicraft:seaside_hill_dirt",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "sapling_shape": "slim_sapling",
+  "transformable": false,
+  "growth_rate": 0.9,
+  "max_branch_radius": 8,
+  "signal_energy": 3.0,
+  "tapering": 0.8,
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 1.1,
+    "hot": 1.1
+  },
+  "perfect_biomes": { "names": [ "sonicraft:seaside_hill_zone" ] },
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "growth_logic_kit": {
+    "name": "palm",
+    "properties": {
+      "height_variation": 2
+    }
+  },
+  "features" : [
+    {
+      "name": "bottom_flare",
+      "properties": {
+        "min_radius": 3
+      }
+    }
+  ]
+}

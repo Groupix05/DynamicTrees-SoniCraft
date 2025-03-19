@@ -1,0 +1,11 @@
+{
+  "type": "palm",
+  "primitive_log": "sonicraft:beachpalm_log",
+  "common_leaves": "dt_sonicraft:beachpalm",
+  "common_species": "dt_sonicraft:beachpalm",
+  "generate_stripped_branch": false,
+  "loot_volume_multiplier": 3.0,
+  "max_branch_radius": 8,
+  "primary_thickness": 3,
+  "secondary_thickness": 4
+}

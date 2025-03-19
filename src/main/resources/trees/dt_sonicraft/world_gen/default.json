@@ -19,6 +19,21 @@
     }
   },
   {
+    "_comment": "Generates Beachpalms in the Seaside Hill Zones.",
+    "select": {
+      "name": "sonicraft:seaside_hill_zone"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:beachpalm": 1
+        }
+      },
+      "density": 0.1,
+      "chance": 0.25
+    }
+  },
+  {
     "_comment": "Generates Scroched Neo Palms in the Scorched Angel Island Zone.",
     "select": {
       "name": "sonicraft:scorched_angel_island_jungle"
