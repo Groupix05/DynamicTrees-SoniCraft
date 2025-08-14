@@ -166,12 +166,12 @@
     },
     "apply": {
       "species" : {
-        "method" : "splice_before",
         "random" : {
-          "dt_sonicraft:jungle_conifer": 80,
-          "..." : 20
+          "dt_sonicraft:jungle_conifer": 1
         }
-      }
+      },
+      "density": 0.1,
+      "chance": 0.25
     }
   },
   {
