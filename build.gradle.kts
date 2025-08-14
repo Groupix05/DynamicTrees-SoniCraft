@@ -86,7 +86,7 @@ dependencies {
 
     //DynamicTrees
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
-    runtimeOnly(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
+    implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
 
     //DynmaicTrees Tools/Utilities
     runtimeOnly(fg.deobf("curse.maven:jade-324717:5072729"))
@@ -95,7 +95,8 @@ dependencies {
     runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
 
     //Other
-    runtimeOnly(fg.deobf("curse.maven:sonicraft-490147:6120917"))
+    implementation(fg.deobf("curse.maven:sonicraft-490147:6120917"))
+    implementation(fg.deobf("curse.maven:sonicraft-lively-zones-1207774:6231428"))
     runtimeOnly(fg.deobf("curse.maven:geckolib-388172:6027567"))
     runtimeOnly(fg.deobf("curse.maven:curios-309927:6238756"))
 }
