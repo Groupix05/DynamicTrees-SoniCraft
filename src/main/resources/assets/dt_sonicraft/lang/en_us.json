@@ -5,6 +5,7 @@
   "block.dt_sonicraft.beachpalm_branch": "Beachpalm Tree",
   "block.dt_sonicraft.chilly_blossom_branch": "Chilly Blossom Tree",
   "block.dt_sonicraft.deciduous_neo_palm_branch": "Deciduous Neo Palm Tree",
+  "block.dt_sonicraft.jungle_conifer_branch": "Jungle Conifer Tree",
   "block.dt_sonicraft.mushroom_hill_toadstool_branch": "Toadstool",
   "block.dt_sonicraft.neo_palm_branch": "Neo Palm Tree",
   "block.dt_sonicraft.scorched_neo_palm_branch": "Scorched Neo Palm Tree",
@@ -15,6 +16,7 @@
   "species.dt_sonicraft.fruiting_deciduous_neo_palm": "Fruiting Deciduous Neo Palm",
   "species.dt_sonicraft.fruiting_neo_palm": "Fruiting Neo Palm",
   "species.dt_sonicraft.ice_cap_chilly_blossom": "Ice Cap Chilly Blossom",
+  "species.dt_sonicraft.jungle_conifer": "Jungle Conifer",
   "species.dt_sonicraft.mega_mushroom_hill_toadstool": "Mega Mushroom Hill Toadstool",
   "species.dt_sonicraft.mushroom_hill_toadstool": "Mushroom Hill Toadstool",
   "species.dt_sonicraft.neo_palm": "Neo Palm",
@@ -27,6 +29,7 @@
   "item.dt_sonicraft.fruiting_deciduous_neo_palm_seed": "Fruiting Deciduous Neo Palm Seed",
   "item.dt_sonicraft.fruiting_neo_palm_seed": "Fruiting Neo Palm Seed",
   "item.dt_sonicraft.ice_cap_chilly_blossom_seed": "Ice Cap Chilly Blossom Pit",
+  "item.dt_sonicraft.jungle_conifer_seed": "Jungle Conifer Cone",
   "item.dt_sonicraft.mushroom_hill_toadstool_seed": "Mushroom Hill Toadstool Cap",
   "item.dt_sonicraft.neo_palm_seed": "Neo Palm Seed",
   "item.dt_sonicraft.scorched_neo_palm_seed": "Scorched Neo Palm Seed"

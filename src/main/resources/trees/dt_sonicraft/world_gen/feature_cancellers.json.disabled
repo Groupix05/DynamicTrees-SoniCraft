@@ -39,5 +39,14 @@
       "type": "mushroom",
       "namespace": "minecraft"
     }
+  },
+  {
+    "_comment": "Cancel regular mushroom generation from Mobius.",
+    "only_if_loaded": [ "sonicraft_lively_zones" ],
+    "select": { "name": "sonicraft_lively_zones:aquatic_ruin_zone" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "sonicraft"
+    }
   }
 ]

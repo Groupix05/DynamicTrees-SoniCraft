@@ -124,7 +124,7 @@
     }
   },
   {
-    "_comment": "Generates Giant Tadstools in the Mushroom Hill Zone.",
+    "_comment": "Generates Giant Toadstools in the Mushroom Hill Zone.",
     "only_if_loaded": [ "dynamictreesplus" ],
     "select": {
       "name": "sonicraft:mushroom_hill_zone"
@@ -156,6 +156,22 @@
       },
       "density": { "math": { "add": [ { "mul": [ "noise", 0.6 ] },  0.2 ] } },
       "chance": 0.1
+    }
+  },
+  {
+    "_comment": "Generates Jungle Conifers in the Aquatic Ruin Zone.",
+    "only_if_loaded": [ "sonicraft_lively_zones" ],
+    "select": {
+      "name": "sonicraft:aquatic_ruin_zone"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dt_sonicraft:jungle_conifer": 80,
+          "..." : 20
+        }
+      }
     }
   },
   {

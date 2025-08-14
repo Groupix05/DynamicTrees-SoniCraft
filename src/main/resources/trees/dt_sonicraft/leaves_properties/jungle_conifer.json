@@ -1,0 +1,6 @@
+{
+  "only_if_loaded": "sonicraft_lively_zones",
+  "primitive_leaves": "minecraft:jungle_leaves",
+  "smother": 3,
+  "cell_kit": "dynamictrees:conifer"
+}
