@@ -23,13 +23,6 @@
     "perfect_biomes": { "tag": "#forge:is_jungle", "name": "sonicraft:aquatic_ruin_zone" },
     "acceptable_soils": ["dirt_like"],
     "features" : [
-        "conifer_topper",
-        {
-            "name": "roots",
-            "properties": {
-                "min_trunk_radius": 8,
-                "scale_factor": 15
-            }
-        }
+        "conifer_topper"
     ]
 }

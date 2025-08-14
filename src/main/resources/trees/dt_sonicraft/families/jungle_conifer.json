@@ -4,6 +4,5 @@
     "common_species": "dt_sonicraft:jungle_conifer",
     "primitive_log": "jungle_log",
     "primitive_stripped_log": "stripped_jungle_log",
-    "generate_surface_root": true,
     "max_branch_radius": 24
 }
