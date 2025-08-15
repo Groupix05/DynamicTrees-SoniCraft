@@ -4,6 +4,7 @@
     { "id": "dt_sonicraft:chilly_blossom_sapling", "required": false },
     { "id": "dt_sonicraft:deciduous_neo_palm_sapling", "required": false },
     { "id": "dt_sonicraft:ice_cap_chilly_blossom_sapling", "required": false },
+    { "id": "dt_sonicraft:jungle_conifer_sapling", "required": false },
     { "id": "dt_sonicraft:neo_palm_sapling", "required": false },
     { "id": "dt_sonicraft:scorched_neo_palm_sapling", "required": false }
   ]
