@@ -175,6 +175,27 @@
     }
   },
   {
+    "_comment": "Generates Jungle Oaks in the Angel Island Jungle.",
+    "only_if_loaded": [ "sonicraft_lively_zones" ],
+    "select": {
+      "name": "sonicraft:angel_island_jungle"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_sonicraft:jungle_oak": 15,
+          "dt_sonicraft:mega_jungle_oak": 3,
+          "dt_sonicraft:jungle_oak_undergrowth": 4
+        }
+      },
+      "density": [
+        1.5
+      ],
+      "forestness": 1.0,
+      "chance": "standard"
+    }
+  },
+  {
     "_comment": "Generates Ecologic's cactus in the Sandopolis Zone.",
     "only_if_loaded": [ "dynamictreesplus", "dtecologics" ],
     "select": {

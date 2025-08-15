@@ -1,0 +1,45 @@
+{
+    "only_if_loaded": "sonicraft_lively_zones",
+    "family": "dt_sonicraft:jungle_oak",
+    "leaves_properties": "jungle",
+    "growth_logic_kit": "jungle",
+    "mega_species": "dt_sonicraft:mega_jungle_oak",
+    "primitive_saplings": [
+        {
+            "sapling_item": "minecraft:jungle_sapling",
+            "sapling_to_seed_extra_ingredient": "minecraft:oak_sapling",
+            "can_craft_seed_to_sapling": false
+        }
+    ],
+    "growth_rate": 1.0,
+    "lowest_branch_height": 2,
+    "signal_energy": 24.0,
+    "tapering": 0.2,
+    "up_probability": 3,
+    "environment_factors" : {
+        "#forge:is_cold": 0.15,
+        "#forge:is_dry": 0.2,
+        "#forge:is_hot": 1.1,
+        "#forge:is_wet": 1.1
+    },
+    "perfect_biomes": { "tag": "#minecraft:is_jungle", "name": "sonicraft:angel_island_jungle" },
+    "features" : [
+        {
+            "name": "vines",
+            "properties": {
+                "quantity": 16,
+                "max_length": 16
+            }
+        },
+        {
+            "name": "undergrowth",
+            "properties": {
+                "undergrowth_species": "dynamictrees:oak_undergrowth",
+                "secondary_undergrowth_species": "dynamictrees:jungle_undergrowth"
+            }
+        }
+    ],
+    "lang_overrides": {
+        "seed": "Jungle Pod"
+    }
+}
