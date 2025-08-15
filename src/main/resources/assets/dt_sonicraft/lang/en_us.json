@@ -4,6 +4,7 @@
 
   "block.dt_sonicraft.beachpalm_branch": "Beachpalm Tree",
   "block.dt_sonicraft.chilly_blossom_branch": "Chilly Blossom Tree",
+  "block.dt_sonicraft.dark_oak_azalea": "Dark Oak Azalea Tree",
   "block.dt_sonicraft.deciduous_neo_palm_branch": "Deciduous Neo Palm Tree",
   "block.dt_sonicraft.jungle_conifer_branch": "Jungle Conifer Tree",
   "block.dt_sonicraft.jungle_oak_branch": "Jungle Oak Tree",
@@ -13,6 +14,7 @@
 
   "species.dt_sonicraft.beachpalm": "Beachpalm",
   "species.dt_sonicraft.chilly_blossom": "Chilly Blossom",
+  "species.dt_sonicraft.dark_oak_azalea": "Dark Oak Azalea",
   "species.dt_sonicraft.deciduous_neo_palm": "Deciduous Neo Palm",
   "species.dt_sonicraft.fruiting_deciduous_neo_palm": "Fruiting Deciduous Neo Palm",
   "species.dt_sonicraft.fruiting_neo_palm": "Fruiting Neo Palm",
@@ -29,6 +31,7 @@
 
   "item.dt_sonicraft.beachpalm_seed": "Beachpalm Seed",
   "item.dt_sonicraft.chilly_blossom_seed": "Chilly Blossom Pit",
+  "item.dt_sonicraft.dark_oak_azalea_seed": "Dark Oak Azalea Acorn",
   "item.dt_sonicraft.deciduous_neo_palm_seed": "Deciduous Neo Palm Seed",
   "item.dt_sonicraft.fruiting_deciduous_neo_palm_seed": "Fruiting Deciduous Neo Palm Seed",
   "item.dt_sonicraft.fruiting_neo_palm_seed": "Fruiting Neo Palm Seed",

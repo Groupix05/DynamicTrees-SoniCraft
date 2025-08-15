@@ -222,6 +222,23 @@
     }
   },
   {
+    "_comment": "Generates Dark Oak Azaleas in the Aquatic Ruin Zone.",
+    "only_if_loaded": [ "sonicraft_lively_zones" ],
+    "select": {
+      "name": "sonicraft:marble_garden_zone"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dt_sonicraft:dark_oak_azalea": 1
+        }
+      },
+      "density": 0.1,
+      "chance": 0.15
+    }
+  },
+  {
     "_comment": "Generates Ecologic's cactus in the Sandopolis Zone.",
     "only_if_loaded": [ "dynamictreesplus", "dtecologics" ],
     "select": {
