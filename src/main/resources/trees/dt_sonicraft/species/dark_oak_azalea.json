@@ -47,12 +47,6 @@
             }
         },
         {
-            "name": "rot_soil",
-            "properties": {
-                "rotten_soil": "podzol"
-            }
-        },
-        {
             "name": "mushroom_rot",
             "properties": {
                 "_comment": "An alternate mushroom chance of -1 means that a red mushroom will always be generated.",

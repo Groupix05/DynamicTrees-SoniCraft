@@ -2,6 +2,7 @@
   "values": [
     { "id": "dt_sonicraft:beachpalm_seed", "required": false },
     { "id": "dt_sonicraft:chilly_blossom_seed", "required": false },
+    { "id": "dt_sonicraft:dark_oak_azalea_seed", "required": false },
     { "id": "dt_sonicraft:deciduous_neo_palm_seed", "required": false },
     { "id": "dt_sonicraft:ice_cap_chilly_blossom_seed", "required": false },
     { "id": "dt_sonicraft:jungle_conifer_seed", "required": false },

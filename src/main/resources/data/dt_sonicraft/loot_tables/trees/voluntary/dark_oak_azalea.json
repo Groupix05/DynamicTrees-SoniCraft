@@ -12,11 +12,11 @@
               "rarity": 1.0
             }
           ],
-          "name": "dt_sonicraft:jungle_oak_seed"
+          "name": "dt_sonicraft:dark_oak_azalea_seed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dynamictrees:trees/voluntary/jungle_oak"
+  "random_sequence": "dynamictrees:trees/voluntary/dark_oak_azalea"
 }
