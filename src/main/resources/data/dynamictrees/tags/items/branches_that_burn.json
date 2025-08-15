@@ -4,6 +4,7 @@
     { "id": "dt_sonicraft:chilly_blossom_branch", "required": false },
     { "id": "dt_sonicraft:deciduous_neo_palm_branch", "required": false },
     { "id": "dt_sonicraft:jungle_conifer_branch", "required": false },
+    { "id": "dt_sonicraft:jungle_oak_branch", "required": false },
     { "id": "dt_sonicraft:neo_palm_branch", "required": false },
     { "id": "dt_sonicraft:scorched_neo_palm_branch", "required": false }
   ]

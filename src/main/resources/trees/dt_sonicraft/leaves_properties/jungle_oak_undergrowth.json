@@ -1,8 +1,0 @@
-{
-  "only_if_loaded": "sonicraft_lively_zones",
-  "primitive_leaves": "minecraft:jungle_leaves",
-  "cell_kit": "dynamictrees:acacia",
-  "type": "scruffy",
-  "can_grow_on_ground": true,
-  "light_requirement": 4
-}
