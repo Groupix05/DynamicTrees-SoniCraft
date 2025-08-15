@@ -10,8 +10,8 @@
             "can_craft_seed_to_sapling": false
         },
         {
-            "sapling_item": "minecraft:dark_oak_sapling",
-            "sapling_to_seed_extra_ingredient": "minecraft:flowering_azalea",
+            "sapling_block": "minecraft:flowering_azalea",
+            "sapling_to_seed_extra_ingredient": "minecraft:dark_oak_sapling",
             "can_craft_seed_to_sapling": false
         }
     ],
@@ -36,8 +36,8 @@
         {
             "name": "alt_leaves",
             "properties": {
-                "alternative_leaves": "dark_oak_flowering_azalea",
-                "place_chance": 0.25
+                "alternative_leaves": "dt_sonicraft:dark_oak_flowering_azalea",
+                "place_chance": 0.15
             }
         },
         {
