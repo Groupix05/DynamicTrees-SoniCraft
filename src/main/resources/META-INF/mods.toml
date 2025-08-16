@@ -39,6 +39,6 @@ Adds Dynamic Trees compatibility for SoniCraft.
 [[dependencies.dt_sonicraft]]
     modId="sonicraft"
     mandatory=true
-    versionRange="[1.9.0,)"
+    versionRange="[1.9.1,)"
     ordering="AFTER"
     side="BOTH"
