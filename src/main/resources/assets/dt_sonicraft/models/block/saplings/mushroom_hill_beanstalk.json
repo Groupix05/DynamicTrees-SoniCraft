@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/cross",
+	"render_type": "minecraft:cutout_mipped",
+	"textures": {
+		"cross": "dt_sonicraft:block/beanstalk_sapling"
+	},
+	"elements": [
+		{
+			"from": [4, 3.5, 4],
+			"to": [12, 3.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 3, 4]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#cross"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 4, 14.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 12, 16, 16], "texture": "#cross"},
+				"west": {"uv": [16, 12, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [0.8, 0, 8],
+			"to": [14.2, 4, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "texture": "#cross"},
+				"south": {"uv": [16, 12, 0, 16], "texture": "#cross"}
+			}
+		}
+	]
+}

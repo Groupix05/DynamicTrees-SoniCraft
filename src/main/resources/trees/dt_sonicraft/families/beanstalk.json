@@ -1,0 +1,14 @@
+{
+  "type": "dt_sonicraft:beanstalk",
+  "common_species": "dt_sonicraft:mushroom_hill_beanstalk",
+  "common_leaves": "bare",
+  "primitive_log": "sonicraft:mushroom_hill_beanstalk",
+  "stick": "air",
+  "generate_stripped_branch": false,
+  "max_branch_radius": 8,
+  "texture_overrides": {
+    "branch": "sonicraft:block/mushroom_hill_beanstalk",
+    "branch_top": "sonicraft:block/mushroom_hill_beanstalk_top",
+    "branch_bottom": "sonicraft:block/mushroom_hill_beanstalk_top"
+  }
+}

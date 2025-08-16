@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "sonicraft:block/mushroom_hill_beanstalk",
+    "rings": "sonicraft:block/mushroom_hill_beanstalk_top"
+  }
+}
