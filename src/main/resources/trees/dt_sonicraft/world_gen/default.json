@@ -239,6 +239,22 @@
     }
   },
   {
+    "_comment": "Generates beanstalks in the Mushroom Hill Zone.",
+    "only_if_loaded": [ "dynamictreesplus" ],
+    "select": {
+      "name": "sonicraft:mushroom_hill_zone"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dt_sonicraft:mushroom_hill_beanstalk" : 5,
+          "..." : 10
+        }
+      }
+    }
+  },
+  {
     "_comment": "Generates Ecologic's cactus in the Sandopolis Zone.",
     "only_if_loaded": [ "dynamictreesplus", "dtecologics" ],
     "select": {
