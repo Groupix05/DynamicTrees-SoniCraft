@@ -10,7 +10,6 @@ import net.minecraft.world.level.material.MapColor;
 
 public class BeanstalkFamily extends Family {
     public static final TypedRegistry.EntryType<Family> TYPE = TypedRegistry.newType(BeanstalkFamily::new);
-    public static final String BRANCH_BOTTOM = "branch_bottom";
 
     public BeanstalkFamily(ResourceLocation registryName) {
         super(registryName);
