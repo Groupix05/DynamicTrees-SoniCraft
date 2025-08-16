@@ -1,4 +1,5 @@
 {
+  "only_if_loaded": "dynamictreesplus",
   "type": "dynamictreesplus:cactus",
   "family": "dt_sonicraft:beanstalk",
   "primitive_sapling": "sonicraft:mushroom_hill_beanstalk",
