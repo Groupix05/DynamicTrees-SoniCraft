@@ -134,7 +134,7 @@
       "species" : {
         "method" : "splice_before",
         "random" : {
-          "dt_sonicraft:mushroom_hill_beanstalk" : 2,
+          "dt_sonicraft:mushroom_hill_beanstalk" : 4,
           "dt_sonicraft:mushroom_hill_toadstool": 4,
           "dt_sonicraft:mega_mushroom_hill_toadstool": 1,
           "..." : 95
