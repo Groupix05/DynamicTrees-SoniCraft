@@ -96,7 +96,7 @@ dependencies {
 
     //Other
     implementation(fg.deobf("curse.maven:sonicraft-490147:6120917"))
-    implementation(fg.deobf("curse.maven:sonicraft-lively-zones-1207774:6231428"))
+    runtimeOnly(fg.deobf("curse.maven:sonicraft-lively-zones-1207774:6231428"))
     runtimeOnly(fg.deobf("curse.maven:geckolib-388172:6027567"))
     runtimeOnly(fg.deobf("curse.maven:curios-309927:6238756"))
 }

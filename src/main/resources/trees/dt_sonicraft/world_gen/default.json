@@ -34,7 +34,7 @@
     }
   },
   {
-    "_comment": "Generates Scroched Neo Palms in the Scorched Angel Island Zone.",
+    "_comment": "Generates Scorched Neo Palms in the Scorched Angel Island Zone.",
     "select": {
       "name": "sonicraft:scorched_angel_island_jungle"
     },

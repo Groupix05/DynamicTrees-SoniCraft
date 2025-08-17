@@ -1,6 +1,0 @@
-{
-  "type": "forge:remove_features",
-  "biomes": "sonicraft:aquatic_ruin_zone",
-  "features": "sonicraft_lively_zones:arz_tree",
-  "step": "surface_structures"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "forge:remove_features",
-  "biomes": "sonicraft:scorched_angel_island_jungle",
-  "features": "sonicraft_lively_zones:saiz_bush",
-  "step": "surface_structures"
-}
