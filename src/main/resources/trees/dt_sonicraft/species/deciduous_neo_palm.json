@@ -54,6 +54,12 @@
         "min_trunk_radius": 9,
         "scale_factor": 15
       }
+    },
+    {
+      "name": "undergrowth",
+      "properties": {
+        "undergrowth_species": "dt_sonicraft:mushroom_hill_beanstalk"
+      }
     }
   ]
 }

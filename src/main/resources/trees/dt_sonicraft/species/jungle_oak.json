@@ -35,8 +35,7 @@
         {
             "name": "undergrowth",
             "properties": {
-                "undergrowth_species": "dynamictrees:oak_undergrowth",
-                "secondary_undergrowth_species": "dynamictrees:jungle_undergrowth"
+                "undergrowth_species": "dt_sonicraft:jungle_oak_undergrowth"
             }
         }
     ]

@@ -73,7 +73,8 @@
       "species": {
         "random": {
           "dt_sonicraft:deciduous_neo_palm": 10,
-          "dt_sonicraft:fruiting_deciduous_neo_palm": 1
+          "dt_sonicraft:fruiting_deciduous_neo_palm": 1,
+          "..." : 10
         }
       },
       "density": {
@@ -133,6 +134,7 @@
       "species" : {
         "method" : "splice_before",
         "random" : {
+          "dt_sonicraft:mushroom_hill_beanstalk" : 2,
           "dt_sonicraft:mushroom_hill_toadstool": 4,
           "dt_sonicraft:mega_mushroom_hill_toadstool": 1,
           "..." : 95
@@ -236,22 +238,6 @@
       },
       "density": 0.1,
       "chance": 0.15
-    }
-  },
-  {
-    "_comment": "Generates beanstalks in the Mushroom Hill Zone.",
-    "only_if_loaded": [ "dynamictreesplus" ],
-    "select": {
-      "name": "sonicraft:mushroom_hill_zone"
-    },
-    "apply": {
-      "species" : {
-        "method" : "splice_before",
-        "random" : {
-          "dt_sonicraft:mushroom_hill_beanstalk" : 5,
-          "..." : 10
-        }
-      }
     }
   },
   {
