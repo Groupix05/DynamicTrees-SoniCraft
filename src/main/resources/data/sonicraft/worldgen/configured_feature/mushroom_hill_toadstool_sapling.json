@@ -1,16 +1,20 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:flower",
   "config": {
-    "tries": 12,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
         "config": {
           "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "dynamictrees:mushroom_hill_toadstool_sapling"
-            }
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "dt_sonicraft:mushroom_hill_toadstool_sapling"
+                },
+                "weight": 1
+              }
+            ]
           }
         }
       },
@@ -23,6 +27,9 @@
           }
         }
       ]
-    }
+    },
+    "tries": 64,
+    "xz_spread": 7,
+    "y_spread": 3
   }
 }
