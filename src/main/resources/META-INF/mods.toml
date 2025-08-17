@@ -42,3 +42,10 @@ Adds Dynamic Trees compatibility for SoniCraft.
     versionRange="[1.9.1,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.dt_sonicraft]]
+    modId="sonicraft_lively_zones"
+    mandatory=false
+    versionRange="[0.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
