@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "sonicraft:marble_garden_zone",
+  "features": "sonicraft_lively_zones:mgz_tree",
+  "step": "surface_structures"
+}

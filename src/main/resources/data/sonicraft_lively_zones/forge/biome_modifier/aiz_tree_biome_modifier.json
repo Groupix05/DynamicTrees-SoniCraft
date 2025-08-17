@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "sonicraft:angel_island_jungle",
+  "features": "sonicraft_lively_zones:aiz_tree",
+  "step": "surface_structures"
+}

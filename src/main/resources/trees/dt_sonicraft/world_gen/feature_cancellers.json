@@ -43,7 +43,8 @@
   {
     "_comment": "Cancel regular mushroom generation from Mobius.",
     "only_if_loaded": [ "sonicraft_lively_zones" ],
-    "select": { "name": "sonicraft_lively_zones:aquatic_ruin_zone" },
+    "select": { "name": ["sonicraft:angel_island_jungle", "sonicraft:aquatic_ruin_zone",
+      "sonicraft:marble_garden_zone", "sonicraft:scorched_angel_island_jungle"] },
     "cancellers": {
       "type": "tree",
       "namespace": "sonicraft"
